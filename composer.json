@@ -1,5 +1,5 @@
 {
-    "name": "dot-im/bbcode-parser",
+    "name": "setupy/laravel-bbcode",
     "description": "Parse your BBCode easy with this library.",
     "keywords": ["bbcode", "parser", "laravel"],
     "type": "library",
@@ -9,16 +9,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Dotim\\BBCode\\": "src/"
+            "Setupy\\BBCode\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Dotim\\BBCode\\BBCodeServiceProvider"
+                "Setupy\\BBCode\\BBCodeServiceProvider"
             ],
             "aliases": {
-                "BBCode": "Dotim\\BBCode\\Facades\\BBCode"
+                "BBCode": "Setupy\\BBCode\\Facades\\BBCode"
             }
         }
     },
