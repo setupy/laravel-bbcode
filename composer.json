@@ -1,0 +1,26 @@
+{
+    "name": "dot-im/bbcode-parser",
+    "description": "Parse your BBCode easy with this library.",
+    "keywords": ["bbcode", "parser", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dotim\\BBCode\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dotim\\BBCode\\BBCodeServiceProvider"
+            ],
+            "aliases": {
+                "BBCode": "Dotim\\BBCode\\Facades\\BBCode"
+            }
+        }
+    },
+    "minimum-stability": "stable"
+}
