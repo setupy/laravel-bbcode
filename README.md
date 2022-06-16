@@ -9,7 +9,7 @@ Parse your BBCode easy with bbcode-parser
 Via Composer
 
 ``` bash
-composer require dot-im/bbcode-parser
+composer require setupy/laravel-bbcode
 ```
 
 ## Usage
