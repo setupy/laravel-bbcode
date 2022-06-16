@@ -81,7 +81,7 @@ BBCode::except('bold')->parse('[b]Bold[/b] [i]Italic[/i]');
 ## Extending BBCodes
 You can add custom bbcode in config file
 ```bash
-php artisan vendor:publish --provider="Dotim\BBCode\BBCodeServiceProvider" --tag="bbcodes-config"
+php artisan vendor:publish --provider="Setupy\BBCode\BBCodeServiceProvider" --tag="bbcodes-config"
 ```
 
 Or you can add using method
